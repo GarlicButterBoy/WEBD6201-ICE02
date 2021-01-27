@@ -6,7 +6,6 @@
 
 "use strict";
 
-//Contact Class
 var Contact = /** @class */ (function () {
     //Constructor
     function Contact(fullName, contactNumber, emailAddress) {
@@ -118,7 +117,7 @@ var Contact = /** @class */ (function () {
             event.preventDefault();
             let contact = new Contact(fullName.value, contactNumber.value, emailAddress.value);
 
-            console.log(contact.toString());
+            
         });
     }
 

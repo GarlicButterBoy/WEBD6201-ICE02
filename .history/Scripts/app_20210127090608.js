@@ -6,7 +6,6 @@
 
 "use strict";
 
-//Contact Class
 var Contact = /** @class */ (function () {
     //Constructor
     function Contact(fullName, contactNumber, emailAddress) {
