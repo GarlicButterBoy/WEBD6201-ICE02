@@ -10,7 +10,7 @@
 "use strict";
 class Contact {
 
-    //getters and setters
+    //getter and setter
   get FullName() 
   {
       return this.m_fullName;
@@ -37,16 +37,13 @@ class Contact {
   }
 
     //Constructor
-    constructor(fullName, contactNumber, emailAddress) 
-    {
+    constructor(fullName, contactNumber, emailAddress) {
         this.m_conactNumber = contactNumber;
         this.m_emailAddress = emailAddress;
         this.m_fullName = fullName;
     }
-    
     //Methods
-    toString() 
-    {
+    toString() {
         return `Full Name: ${this.m_fullName}\nPhone: ${this.m_conactNumber}\nEmail: ${this.m_emailAddress}`;
     }
 }

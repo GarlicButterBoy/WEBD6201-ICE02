@@ -43,7 +43,6 @@ class Contact {
         this.m_emailAddress = emailAddress;
         this.m_fullName = fullName;
     }
-    
     //Methods
     toString() 
     {
