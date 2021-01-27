@@ -7,20 +7,6 @@
 "use strict";
 
 //Contact Class
-"use strict";
-class Contact {
-    //Constructor
-    constructor(fullName, contactNumber, emailAddress) {
-        this.m_conactNumber = contactNumber;
-        this.m_emailAddress = emailAddress;
-        this.m_fullName = fullName;
-    }
-    //Methods
-    toString() {
-        return `Full Name: ${this.m_fullName}\nPhone: ${this.m_conactNumber}\nEmail: ${this.m_emailAddress}`;
-    }
-}
-
 /*
 var Contact = /** @class *//* (function () {
     //Constructor
