@@ -46,10 +46,6 @@ class Contact {
 
     
     //Methods
-    /**
-     * Overrides the toString method to print the Contact class
-     * @returns {string}
-     */
     toString() 
     {
         return `Full Name: ${this.m_fullName}\nPhone: ${this.m_conactNumber}\nEmail: ${this.m_emailAddress}`;
@@ -62,8 +58,8 @@ class Contact {
     toJSON()
     {
         return {
-            "fullName":this.fullName,
-            "contactNumber":this.conactNumber,
+            "fullName":this.m_fullName,
+            "contactNumber":this.m_conactNumber,
             "emailAddress":this.emailAddress
         }
     }

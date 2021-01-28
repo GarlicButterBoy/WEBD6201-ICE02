@@ -48,7 +48,7 @@ class Contact {
     //Methods
     /**
      * Overrides the toString method to print the Contact class
-     * @returns {string}
+     * @re
      */
     toString() 
     {

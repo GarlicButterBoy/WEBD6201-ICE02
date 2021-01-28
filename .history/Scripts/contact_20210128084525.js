@@ -46,10 +46,6 @@ class Contact {
 
     
     //Methods
-    /**
-     * Overrides the toString method to print the Contact class
-     * @returns {string}
-     */
     toString() 
     {
         return `Full Name: ${this.m_fullName}\nPhone: ${this.m_conactNumber}\nEmail: ${this.m_emailAddress}`;
@@ -62,9 +58,9 @@ class Contact {
     toJSON()
     {
         return {
-            "fullName":this.fullName,
-            "contactNumber":this.conactNumber,
-            "emailAddress":this.emailAddress
+            "fullName":this.m_fullName,
+            "contactNumber":this.m_conactNumber,
+            "emailAddress":this.m_emailAddress
         }
     }
     /**
@@ -82,10 +78,7 @@ class Contact {
      */
     deserialize(data)
     {
-        let propertyArray = data.split(",");
-        this.fullName = propertyArray[0];
-        this.contactNumber = propertyArray[1];
-        this.emailAddress = propertyArray[2];
+        let stringData
     }
 
 }

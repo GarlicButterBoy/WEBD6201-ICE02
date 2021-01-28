@@ -5,16 +5,8 @@
 //Closure - limits scope leak
 
 "use strict";
-/* Example of a class being created with brand new functions
-let myContact = 
-{
-  "firstName":"Nick SF",
-  "contactNumber":"905-123-4567",
-  "emailAddress":"email@test.com",
-  "saysHello":function() { console.log(`${fullName} says Hello!`); },
-  "someOtherObject":{  "friendsList":["Tony", "Stephen", "Peter"]  }
 
-};*/
+let myContact = {};
 
 
 (function()
